@@ -1,0 +1,14 @@
+[package]
+name = "l2-bridge"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+l2-common = { path = "../common" }
+l2-executor = { path = "../executor" }
+l2-prover = { path = "../prover" }
+l2-da = { path = "../da" }
+serde = { workspace = true }
+serde_json = { workspace = true }
+sha2 = { workspace = true }
+parking_lot = { workspace = true }

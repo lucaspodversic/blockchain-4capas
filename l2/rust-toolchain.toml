@@ -1,0 +1,4 @@
+# Versión fija del compilador (reproducibilidad CI / GitHub).
+[toolchain]
+channel = "1.85.0"
+components = ["rustfmt", "clippy"]

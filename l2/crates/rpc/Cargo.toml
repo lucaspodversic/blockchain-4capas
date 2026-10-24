@@ -1,0 +1,12 @@
+[package]
+name = "l2-rpc"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+l2-common = { path = "../common" }
+l2-executor = { path = "../executor" }
+serde = { workspace = true }
+serde_json = { workspace = true }
+parking_lot = { workspace = true }
+hex = { workspace = true }

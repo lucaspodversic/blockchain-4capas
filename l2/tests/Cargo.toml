@@ -1,0 +1,24 @@
+[package]
+name = "l2-integration"
+version.workspace = true
+edition.workspace = true
+publish = false
+
+[dependencies]
+l2-common = { path = "../crates/common" }
+l2-executor = { path = "../crates/executor" }
+l2-prover = { path = "../crates/prover" }
+l2-da = { path = "../crates/da" }
+l2-bridge = { path = "../crates/bridge" }
+l2-rpc = { path = "../crates/rpc" }
+rollup-bridge = { path = "../contracts/rollup_bridge" }
+serde_json = { workspace = true }
+sha2 = { workspace = true }
+
+[[test]]
+name = "e2e_rollup"
+path = "e2e_rollup.rs"
+
+[[test]]
+name = "prover_bench"
+path = "prover_bench.rs"

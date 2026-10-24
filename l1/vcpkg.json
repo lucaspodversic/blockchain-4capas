@@ -1,0 +1,23 @@
+{
+  "name": "l1-blockchain",
+  "version-string": "0.1.0",
+  "description": "Layer 1 blockchain node (C++20)",
+  "dependencies": [
+    "openssl",
+    "libsodium",
+    "nlohmann-json",
+    "gtest",
+    {
+      "name": "rocksdb",
+      "default-features": false
+    }
+  ],
+  "builtin-baseline": "2024.12.16",
+  "overrides": [],
+  "features": {
+    "wasmtime": {
+      "description": "Opcional: vincular wasmtime (esta fase usa bytecode L1BC)",
+      "dependencies": []
+    }
+  }
+}

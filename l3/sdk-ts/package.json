@@ -1,0 +1,16 @@
+{
+  "name": "@l1/sdk",
+  "version": "0.1.0",
+  "description": "TypeScript SDK for L1/L2 JSON-RPC",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --test tests/sdk.test.mjs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  }
+}

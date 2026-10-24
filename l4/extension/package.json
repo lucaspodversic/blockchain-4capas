@@ -1,0 +1,9 @@
+{
+  "name": "@l1/extension",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "echo 'compile TS sources with your bundler (esbuild/webpack)'",
+    "test": "node --test tests/vault.test.mjs"
+  }
+}

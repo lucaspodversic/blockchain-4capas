@@ -1,0 +1,20 @@
+# Workspace de contratos L3 (Rust → WASM / native tests)
+[workspace]
+resolver = "2"
+members = [
+  "contract-sdk",
+  "token_ft",
+  "token_nft",
+  "token_multi",
+  "dex_amm",
+  "staking_pool",
+  "governance_dao",
+  "multisig",
+  "lending",
+  "oracle",
+  "tests-integration",
+]
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"

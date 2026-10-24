@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "L1 Wallet",
+  "version": "0.1.0",
+  "description": "Wallet extensión del stack blockchain-4capas",
+  "permissions": ["storage", "activeTab"],
+  "host_permissions": ["http://127.0.0.1/*", "http://localhost/*"],
+  "background": { "service_worker": "dist/background.js", "type": "module" },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "L1 Wallet"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["dist/content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    { "resources": ["dist/inpage.js"], "matches": ["<all_urls>"] }
+  ]
+}

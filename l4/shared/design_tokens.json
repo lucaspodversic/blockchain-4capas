@@ -1,0 +1,22 @@
+{
+  "colors": {
+    "brand": "#3B82F6",
+    "surface": "#F8FAFC",
+    "ink": "#0F172A",
+    "success": "#16A34A",
+    "danger": "#DC2626"
+  },
+  "typography": {
+    "fontFamily": "Inter, system-ui, sans-serif",
+    "scale": { "xs": 12, "sm": 14, "md": 16, "lg": 20, "xl": 28 }
+  },
+  "spacing": {
+    "1": "0.25rem",
+    "2": "0.5rem",
+    "3": "0.75rem",
+    "4": "1rem",
+    "6": "1.5rem",
+    "8": "2rem"
+  },
+  "radius": { "sm": "6px", "md": "12px", "lg": "16px" }
+}

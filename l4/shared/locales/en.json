@@ -1,0 +1,13 @@
+{
+  "nav.home": "Home",
+  "nav.wallet": "Wallet",
+  "nav.swap": "Swap",
+  "nav.stake": "Stake",
+  "nav.gov": "Governance",
+  "nav.nft": "NFT",
+  "nav.explorer": "Explorer",
+  "home.title": "L1 Dashboard",
+  "home.network": "Network",
+  "home.height": "Height",
+  "home.balance": "Balance"
+}

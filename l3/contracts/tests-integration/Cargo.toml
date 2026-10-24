@@ -1,0 +1,14 @@
+[package]
+name = "contracts-integration"
+version.workspace = true
+edition.workspace = true
+publish = false
+
+[dependencies]
+contract-sdk = { path = "../contract-sdk" }
+token-ft = { path = "../token_ft" }
+dex-amm = { path = "../dex_amm" }
+
+[[test]]
+name = "contracts_integration"
+path = "../../tests/contracts_integration.rs"
