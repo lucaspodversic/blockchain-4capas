@@ -1,0 +1,57 @@
+# Build
+**/build/
+**/cmake-build-*/
+**/out/
+**/.cache/
+compile_commands.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Cargo / Rust (L2+)
+**/target/
+**/*.rs.bk
+
+# Node / TS (L3/L4)
+**/node_modules/
+**/.next/
+**/dist/
+**/.turbo/
+
+# Dart / Flutter (L4)
+**/.dart_tool/
+**/build/
+**/.flutter-plugins*
+**/*.iml
+
+# Python
+**/__pycache__/
+**/.venv/
+
+# OS / secrets
+.DS_Store
+*.pem
+*.key
+*.keystore
+.env
+.env.*
+
+# Archives / logs
+*.log
+*.zip
+!blockchain_l1.zip
+
+# vcpkg
+vcpkg_installed/
+
+# Go
+**/vendor/
+**/coverage.out
+
+# Playwright
+**/test-results/
+**/playwright-report/
